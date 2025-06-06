@@ -3,8 +3,7 @@ from fastapi import APIRouter
 
 router = APIRouter()
 
-"Simple route"
-@router.get("/knock")
+
+@router.get("/knock")  # Simple route
 def knock():
     return {"message": "Who's there?"}
-

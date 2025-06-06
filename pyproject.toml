@@ -1,0 +1,7 @@
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+select = ["E", "F", "W", "C90"]
+fix = true
